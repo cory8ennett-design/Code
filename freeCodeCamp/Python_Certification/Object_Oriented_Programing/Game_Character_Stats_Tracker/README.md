@@ -1,3 +1,14 @@
+Technologies
+Uses Python3.
+
+Deployment
+Copy main.py into the text editor of your choice. If using terminal, use the command python3 main.py to run the code.
+
+Credits
+Acknowledgements
+FreeCodeCamp
+-------------------------------------------------------------------------------------------------------------
+
 Build a Game Character Stats Tracker
 In this lab, you'll build a game character stats tracker. The program will allow you to create a character with specific attributes, update those attributes, and retrieve the current stats of the character.
 

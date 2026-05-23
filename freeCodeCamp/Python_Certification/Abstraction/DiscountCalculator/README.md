@@ -1,3 +1,14 @@
+Technologies
+Uses Python3.
+
+Deployment
+Copy main.py into the text editor of your choice. If using terminal, use the command python3 main.py to run the code.
+
+Credits
+Acknowledgements
+FreeCodeCamp
+-------------------------------------------------------------------------------------------------------------
+
 Step 1
 
 In this workshop, you are going to build a discount calculator that can apply different discount strategies to products. The system will determine the best price for a customer based on multiple discount rules.

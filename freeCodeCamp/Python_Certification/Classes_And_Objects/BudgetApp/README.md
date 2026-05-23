@@ -1,3 +1,14 @@
+Technologies
+Uses Python3.
+
+Deployment
+Copy main.py into the text editor of your choice. If using terminal, use the command python3 main.py to run the code.
+
+Credits
+Acknowledgements
+FreeCodeCamp
+-------------------------------------------------------------------------------------------------------------
+
 In this lab, you will build a simple budget app that tracks spending in different categories and can show the relative spending percentage on a graph.
 
 Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.

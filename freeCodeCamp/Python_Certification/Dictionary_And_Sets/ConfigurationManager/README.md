@@ -1,3 +1,14 @@
+Technologies
+Uses Python3.
+
+Deployment
+Copy main.py into the text editor of your choice. If using terminal, use the command python3 main.py to run the code.
+
+Credits
+Acknowledgements
+FreeCodeCamp
+-------------------------------------------------------------------------------------------------------------
+
 Build a User Configuration Manager
 In this lab, you will build a User Configuration Manager that allows users to manage their settings such as theme, language, and notifications. You will implement functions to add, update, delete, and view user settings.
 
