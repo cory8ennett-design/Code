@@ -1,0 +1,62 @@
+Build a Player Interface
+Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
+User Stories:
+
+
+
+1. You should define an abstract class named Player that inherits from the abc.ABC class.
+2. The Player class should have an **init** method that sets:
+The moves attribute to an empty list.
+The position attribute to (0, 0).
+The path attribute to a list containing the initial position.
+
+3. The Player class should have a method named make\_move that:
+Uses random.choice to get a random move from the moves attribute (defined in the concrete class).
+Adds the values from the selected move to the current position and updates the position attribute.
+Appends the new position tuple to the path attribute.
+Returns the new position.
+
+4. The Player class should have an abstract method named level\_up to be implemented in concrete classes.
+
+5. You should define a Pawn class that inherits from the Player class.
+
+6. The Pawn class should use super() to call the parent's **init** method and then set the moves attribute to a list of tuples representing x, y coordinates.
+
+7. Each coordinate tuple should represent a movement of 1 unit in the following directions: up, down, left, right.
+
+8. The Pawn class should implement a concrete level\_up method by adding more moves to the moves attribute. The added moves should represent the four diagonal movements (for example, 1 unit down plus 1 unit left).
+
+
+
+Note: Standard library modules should be imported without using aliases. Tests related to the Player class will fail until the Pawn class becomes instantiable.
+
+
+
+Tests:
+
+1. You should have a class named Player.
+2. The Player class should inherit from the ABC class of the abc module.
+3. The Player class should have an **init** method.
+4. The Player's **init** method should have a single parameter self.
+5. The Player's **init** method should set self.moves to an empty list.
+6. The Player's **init** method should set self.position to (0, 0).
+7. The Player's **init** method should set self.path to a list containing the initial position.
+8. The Player class should have a make\_move method.
+9. The Player's make\_move method should have a single parameter self.
+10. The Player's make\_move method should use random.choice to get a random move from the moves attribute.
+11. The Player's make\_move method should update the position attribute by adding to it the coordinates of the randomly selected move.
+12. The Player's make\_move method should append the new position tuple to the path attribute.
+13. The Player's make\_move method should return the updated position attribute.
+14. The Player class should have a level\_up method.
+15. The Player's level\_up method should have a single parameter self.
+16. The Player's level\_up method should be an abstract method.
+17. The Player class should be an abstract class.
+18. You should have a class named Pawn.
+19. The Pawn class should inherit from the Player class.
+20. The Pawn class should have an **init** method.
+21. The Pawn's **init** method should have a single parameter self.
+22. The Pawn's **init** method should call the parent's **init** with using the super function.
+23. The Pawn's **init** method should set the moves attribute to a list of tuples representing x, y coordinates, where each coordinate tuple represents a movement of 1 unit in the following directions: up, down, left, right.
+24. The Pawn class should have a level\_up method.
+25. The Pawn's level\_up method should add the four diagonal movement of 1 unit to the moves attribute.
+
