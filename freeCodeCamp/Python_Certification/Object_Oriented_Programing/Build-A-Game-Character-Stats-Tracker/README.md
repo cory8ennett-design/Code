@@ -1,3 +1,5 @@
+Build a Game Character Stats Tracker
+
 Technologies
 Uses Python3.
 

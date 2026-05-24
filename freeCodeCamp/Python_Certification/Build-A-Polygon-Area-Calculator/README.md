@@ -1,4 +1,16 @@
 Build a Polygon Area Calculator
+
+Technologies
+Uses Python3.
+
+Deployment
+Copy main.py into the text editor of your choice. If using terminal, use the command python3 main.py to run the code.
+
+Credits
+Acknowledgements
+FreeCodeCamp
+-------------------------------------------------------------------------------------------------------------
+
 In this project, you will use object-oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit its methods and attributes.
 
 Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
